@@ -1,1 +1,0 @@
-Given .py files are made for encoding and decoding qustions for some old game! ( Code of which kinda sucks )
