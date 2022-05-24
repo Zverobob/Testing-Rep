@@ -74,6 +74,10 @@ a:focus {
   line-height: 48px;
 }
 
+.date{
+  text-align: right;
+}
+
 .about {
   display: flex;
   flex-wrap: wrap;
