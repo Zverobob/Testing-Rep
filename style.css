@@ -7,6 +7,12 @@
   margin: 0 auto;
 }
 
+.lamp{
+  position: sticky;
+  bottom: 0;
+  margin: 0 100px 0 0; 
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -165,4 +171,41 @@ p.contacts-name {
 .page-footer p {
   margin: 0;
   padding: 0;
+}
+
+/* Тёмная тема */
+.dark-theme {
+  color: #f2f2f2;
+  background-color: #17161a;
+}
+
+.dark-theme .page-header{
+  background-color: #3f3c53;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.dark-theme a {
+  color: #9484f2;
+}
+
+.dark-theme .theme-button {
+  color: #9484f2;
+  border: 1px solid #9484f2;
+}
+
+.dark-theme .theme-button:focus,
+.dark-theme .theme-button:hover {
+  color: #17161a;
+  background-color: #9484f2;
+}
+
+.dark-theme .status p {
+  background-color: #2a2930;
+  color: #f2f2f2;
+}
+
+.dark-theme .page-footer {
+  background-color: #373540;
+  color: #f2f2f2;
+  box-shadow: 0px -19px 20px rgba(0, 0, 0, 1);
 }
