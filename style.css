@@ -8,9 +8,10 @@
 }
 
 .lamp{
+  text-align: right;
   position: sticky;
   bottom: 0;
-  margin: 0 100px 0 0; 
+  margin: 0 0 -4px 80%; 
 }
 
 .page {
