@@ -58,7 +58,7 @@ a:focus {
   background-image: url("img/me.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 290px 256px;
+  background-size: 290px 256px; 
 }
 
 .page-header a {
@@ -90,10 +90,11 @@ a:focus {
    width: 147px;
    height: 147px;
    border: 8px ;
-   background: url("https://sun9-33.userapi.com/impg/FGBrFhB27-9Z-TrWh5z86SZ3dCG2JmxsCN4-AA/NBlZs3aVEVk.jpg?size=400x500&quality=95&sign=e16eb7a870e8bc82585f9ca78fa5e4a0&type=album");
+   object-fit: cover;
+   margin-top: 30px;
    background-size: 147px 187px;
    border-radius: 50%;
-   box-shadow: 0 0 0 4px #f5e653;
+   box-shadow: 0 0 0 4px #f5e653; 
  }
 
 .about-content {
